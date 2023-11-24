@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/bg5.jpg);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arial, Helvetica', sans-serif;
+}
+
+.logo {
+  color: #fff;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 50px;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar li {
+  float: left;
+  padding: 1rem 2rem;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links:hover {
+  text-decoration: underline;
+  transition: .5s;
+}
+
+.container {
+  padding: 1.5rem 4.5rem;
+}
+
+.tilte {
+  color: #fff;
+  font-size: 6rem;
+  margin-top: 7rem;
+}
+
+.text {
+  color: #fff;
+  /* width: 40%; */
+  margin-top: 3rem;
+  font-size: calc(.4em + 1vw);
+  width: 50%;
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 25px;
+  padding: 7px 10px;
+  margin-top: 1rem;
+  border: 1px solid #ffffff;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: transparent;
+  color: #fff;
+}
+
+/* .btn {
+  
+} */
+
+.btn:hover {
+  background-color: rgb(252, 252, 252);
+  color: #000;
+  transition: 0.5s;
+}
+
+footer h5 {
+  background-color: rgb(250, 250, 250);
+  width: 20%;
+  height: 1.8rem;
+  bottom: 1rem;
+  position: relative;
+  left: 35%;
+  border-radius: 20px;
+  margin-top: 33vh;
+  margin-left: 5vw;
+}
+
+.by {
+  color: #000000;
+  text-align: center;
+  padding-top: .5rem;
+  letter-spacing: 3px;
+  font-weight: 560;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+
+
+
